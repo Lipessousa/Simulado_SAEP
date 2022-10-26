@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+.App{
+  height: 100%;
+  background-color: #2f2f3d;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  padding: 5%;
+}
